@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox spacing="20" alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainMenuController">
+    <!-- Title -->
+    <Text text="Fish Eat Fish" style="-fx-font-size: 30px; -fx-font-weight: bold;" />
+
+    <!-- Buttons -->
+    <Button fx:id="startGameButton" text="Start Game" onAction="#onStartGame"/>
+    <Button fx:id="loginButton" text="Login" onAction="#onLogin"/>
+    <Button fx:id="signUpButton" text="Sign Up" onAction="#onSignUp"/>
+    <Button fx:id="exitButton" text="Exit" onAction="#onExit"/>
+</VBox>
+
